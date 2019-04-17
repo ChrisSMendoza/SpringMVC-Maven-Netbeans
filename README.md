@@ -18,3 +18,5 @@ Just watched a youtube tutorial do it exactly this way.
 
 Not strange, Jenkins has that as the default endpoint, needed a '/' at the end though
 
+Jenkins just built it because of these changes. Let's see if it works after my computer was put to sleep.
+

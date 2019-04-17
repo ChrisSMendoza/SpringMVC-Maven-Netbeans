@@ -20,6 +20,7 @@
 			<h1><spring:message code="index.jumbotron.title" /></h1>
 			<p><spring:message code="index.jumbotron.msg" /></p>
 			<p>
+                                So we just need to figure out JDBC and using a button.. and integrating.. this isn't happening!
 				<a href="<c:url value='/login' />" class="btn btn-primary btn-lg"
 					role="button"><spring:message code="index.jumbotron.button" /> &raquo;</a>
 			</p>

@@ -20,7 +20,7 @@
 					</h1>
 					<br />
 					<p>
-						<spring:message code="error404.msg1"/>
+						I just made this static.. it took an hour<!--<spring:message code="error404.msg1"/>-->
 					</p>
 					<p>
 						<b><spring:message code="error404.msg2"/>:</b>

@@ -11,3 +11,4 @@ It was, now comes the Jenkins part!
 I uninstalled and reinstalled because I forgot my password.
 
 Jenkins cross site security is out the window, let's try again.
+Just watched a youtube tutorial do it exactly this way.

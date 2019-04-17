@@ -12,3 +12,6 @@ I uninstalled and reinstalled because I forgot my password.
 
 Jenkins cross site security is out the window, let's try again.
 Just watched a youtube tutorial do it exactly this way.
+
+
+/payload/ wasn't found, but /github-webhook was found, strange?

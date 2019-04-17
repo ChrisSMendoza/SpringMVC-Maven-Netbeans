@@ -15,3 +15,6 @@ Just watched a youtube tutorial do it exactly this way.
 
 
 /payload/ wasn't found, but /github-webhook was found, strange?
+
+Not strange, Jenkins has that as the default endpoint, needed a '/' at the end though
+

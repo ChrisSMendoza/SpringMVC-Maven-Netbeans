@@ -41,8 +41,6 @@
         <oracle.version>14</oracle.version><!-- was 11.2.0.4, 11.2.0.3  -->
         <mysql.version>5.1.22</mysql.version>
         <tomcat-jdbc.version>7.0.42</tomcat-jdbc.version>
-		
-                <!--C:/Program Files/ojdbc6-11.2.0.3-->
                 
         <!-- Jackson JSON processor -->
         <jackson.version>1.9.13</jackson.version>
@@ -195,4 +193,17 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+
+            <plugin> <!-- plugin to run unit tests -->
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+            </plugin>
+
+        </plugins>
+    </build>
+
+
 </project>

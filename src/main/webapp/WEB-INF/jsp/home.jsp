@@ -47,12 +47,14 @@
                         allow="encrypted-media">     
                 </iframe>
                 
-                <!--social media icons-->
-                <section class="d-flex flex-row">
-                    <div class="w-25">twitter</div>
-                    <div class="w-25">facebook</div>
+                <!--row of social media icons-->
+                <section class="d-flex flex-row justify-content-around">
+
+                    <i class="fab fa-twitter-square fa-3x"></i> <!-- twitter -->
+                    <i class="fab fa-facebook-square fa-3x" <!-- facebook -->
                     <div class="w-25">instagram</div>
                     <div class="w-25">snapchat</div>
+                    
                 </section>
                 
             </div>

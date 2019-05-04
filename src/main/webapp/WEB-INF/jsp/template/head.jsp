@@ -8,7 +8,7 @@
 <meta name="author" content="Eduardo Gonzalez">
 <link rel="shortcut icon" href="<c:url value='/resources/icon/favicon.png' />">
 
-<title><spring:message code="main.title"/></title>
+<title>Up and Coming</title>
 
 <!-- Bootstrap core CSS -->
 <link href="<c:url value='/resources/css/bootstrap.css' />" rel="stylesheet"/>

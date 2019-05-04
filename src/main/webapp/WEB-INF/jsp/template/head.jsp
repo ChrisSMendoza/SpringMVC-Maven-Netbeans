@@ -17,6 +17,11 @@
 <!-- Custom styles for this template -->
 <link href="<c:url value='/resources/css/theme.css' />" rel="stylesheet">
 
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+      crossorigin="anonymous"/>
+
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -26,3 +31,4 @@
 <!-- Bootstrap core JavaScript-->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="<c:url value='/resources/js/bootstrap.min.js' />"></script>
+

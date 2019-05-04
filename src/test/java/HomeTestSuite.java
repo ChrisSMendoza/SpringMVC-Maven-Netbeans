@@ -42,10 +42,4 @@ public class HomeTestSuite {
     @After
     public void tearDown() throws Exception {
     }
-    
-    @Test
-    public void successfulTest() {
-        assertEquals(true, true);
-    }
-    
 }

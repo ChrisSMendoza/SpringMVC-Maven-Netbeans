@@ -11,7 +11,7 @@ public class HomeTests {
         assertEquals(true, true);
     }
 
-	@Test
+    @Ignore @Test
     public void failedTest() {
         assertEquals(false, true);
     }

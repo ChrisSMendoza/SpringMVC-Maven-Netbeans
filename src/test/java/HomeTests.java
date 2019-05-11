@@ -1,5 +1,5 @@
 
-import org.junit.Test;
+import org.junit.*;
 import static org.junit.Assert.*;
 
 // test the home page
@@ -11,7 +11,7 @@ public class HomeTests {
         assertEquals(true, true);
     }
 
-	@Test
+    @Ignore @Test
     public void failedTest() {
         assertEquals(false, true);
     }

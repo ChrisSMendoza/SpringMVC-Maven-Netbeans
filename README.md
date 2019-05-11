@@ -20,3 +20,5 @@ Not strange, Jenkins has that as the default endpoint, needed a '/' at the end t
 
 Jenkins just built it because of these changes. Let's see if it works after my computer was put to sleep.
 
+Checking if this triggers a jenkins build
+trigger build test: github webhook pings successfully

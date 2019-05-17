@@ -192,14 +192,58 @@
             <version>${jackson.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/build-helper-maven-plugin -->
+        <!-- add test source folder to find integration tests -->
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>build-helper-maven-plugin</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
         <plugins>
 
-            <plugin> <!-- plugin to run unit tests -->
+            <plugin> <!-- to run unit tests -->
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.0</version>
+            </plugin>
+
+            <plugin> <!-- to run integration tests -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>2.22.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>                
+            </plugin>
+
+            <plugin> <!-- configure build-helper plugin -->
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <!-- executed during the process-resources phase -->
+                        <id>add-test-source</id>
+                        <phase>process-resources</phase>
+                        <goals> <!-- we're adding a directory location for our tests -->
+                            <goal>add-test-source</goal>
+                        </goals>
+                        <configuration>
+                            <!-- specify the directory with our integration tests -->
+                            <sources> 
+                                <source>src/test/integration</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
 
         </plugins>

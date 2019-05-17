@@ -1,7 +1,7 @@
 <%-- 
-    Document   : home
+    Document   : Artist Home Screen
     Created on : Apr 29, 2019, 10:46:24 AM
-    Author     : luzalcantara
+    Author     : Chris Mendoza
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -51,7 +51,7 @@
                 <section class="d-flex flex-row justify-content-around">
 
                     <i class="fab fa-twitter-square fa-3x"></i> <!-- twitter -->
-                    <i class="fab fa-facebook-square fa-3x" <!-- facebook -->
+                    <i class="fab fa-facebook-square fa-3x"></i> <!-- facebook -->
                     <div class="w-25">instagram</div>
                     <div class="w-25">snapchat</div>
                     

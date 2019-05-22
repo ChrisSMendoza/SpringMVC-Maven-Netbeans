@@ -26,4 +26,10 @@ pipeline {
       }
   }
 
+  post {
+    always {
+      slackSend(channel: '#jenkins', color: '#FFFF00', message: 'A build has just been completed')
+    }
+  }
+
 }

@@ -22,9 +22,12 @@ pipeline {
   }
 
   post {
-    always {
-      slackSend(channel: '#jenkins', color: '#FFFF00', message: 'A build has just been completed')
+    failure {
+      slackSend(channel: '#jenkins', color: '#FC3532', message: "FAILURE: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+    }
+
+    success {
+      slackSend(channel: '#jenkins', color: '#57F954', message: "SUCCESS: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
     }
   }
-
 }

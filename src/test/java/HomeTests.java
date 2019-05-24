@@ -6,12 +6,12 @@ import static org.junit.Assert.*;
 public class HomeTests {
     
     // dummy tests to ensure they run in Jenkins
-    @Ignore @Test
+    @Test
     public void successfulTest() {
         assertEquals(true, true);
     }
 
-    @Test
+    @Ignore @Test
     public void failedTest() {
         assertEquals(false, true);
     }

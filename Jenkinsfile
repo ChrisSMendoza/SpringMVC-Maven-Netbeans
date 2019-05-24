@@ -7,23 +7,18 @@ pipeline {
 	}
 	
   stages {
-      stage('Build') {
-          steps {
-              echo '*** building (compiling) ***'
-              sh 'mvn compile'
-          }
-      }
-      stage('Test') {
-          steps {
-              echo '*** testing ***'
-              sh 'mvn test'
-          }
-      }
-      stage('Deploy') {
-          steps {
-              echo 'This is the Deploy Stage'
-          }
-      }
+    // Maven goes through each phase by default
+    stage('Build-Unit-Integration') {
+        steps {
+            echo 'running: mvn install'
+            sh 'mvn install'
+        }
+    }
+    stage('Deploy') {
+        steps {
+            echo 'This is the Deploy Stage'
+        }
+    }
   }
 
   post {

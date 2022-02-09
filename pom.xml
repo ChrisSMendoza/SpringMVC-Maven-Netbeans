@@ -27,7 +27,7 @@
         <spring-security.version>3.1.4.RELEASE</spring-security.version>
 
         <!-- Hibernate -->
-        <hibernate.version>4.2.1.Final</hibernate.version>
+        <hibernate.version>5.4.24.Final</hibernate.version>
         <hibernate-validator.version>5.0.2.Final</hibernate-validator.version>
 
         <!-- Logging -->

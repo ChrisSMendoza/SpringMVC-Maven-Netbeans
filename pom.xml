@@ -39,7 +39,7 @@
 
         <!-- Database access -->
         <oracle.version>14</oracle.version><!-- was 11.2.0.4, 11.2.0.3  -->
-        <mysql.version>5.1.22</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <tomcat-jdbc.version>7.0.42</tomcat-jdbc.version>
                 
         <!-- Jackson JSON processor -->

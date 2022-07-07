@@ -28,7 +28,7 @@
 
         <!-- Hibernate -->
         <hibernate.version>4.2.1.Final</hibernate.version>
-        <hibernate-validator.version>5.0.2.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.0.23.Final</hibernate-validator.version>
 
         <!-- Logging -->
         <logback.version>1.0.13</logback.version>
